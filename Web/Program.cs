@@ -14,7 +14,6 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddHttpClient("weather", client => client.BaseAddress = new Uri(weatherApiBaseAddress));
-builder.Services.AddScoped<WeatherService>();
 
 var app = builder.Build();
 
