@@ -11,3 +11,4 @@ It contains a simple structure of projects:
 ## Branches
 
 - `multi-solution` - to demonstrate the multi solution extension for Visual Studio
+- `bug-missing-di-registration` - the same application missing a DI registration causing a runtime rror

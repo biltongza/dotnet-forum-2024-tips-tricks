@@ -3,19 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{4D69AAD6-3151-4873-B477-97420C1A9B1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{4D69AAD6-3151-4873-B477-97420C1A9B1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{B54F1F8F-D643-4964-8E5B-0737F0857014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{B54F1F8F-D643-4964-8E5B-0737F0857014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "Lib\Lib.csproj", "{81134F78-F180-4951-A52C-72407785A812}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib", "Lib\Lib.csproj", "{81134F78-F180-4951-A52C-72407785A812}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stuff", "Stuff", "{E279B743-C2FA-4C30-8CA3-DA4808CB4437}"
+	ProjectSection(SolutionItems) = preProject
+		people.csv = people.csv
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4D69AAD6-3151-4873-B477-97420C1A9B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +33,11 @@ Global
 		{81134F78-F180-4951-A52C-72407785A812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81134F78-F180-4951-A52C-72407785A812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81134F78-F180-4951-A52C-72407785A812}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {534578BD-885B-4618-AE29-7EA497A5AB8B}
 	EndGlobalSection
 EndGlobal
